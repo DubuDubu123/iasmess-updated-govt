@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /storage/
+Disallow: /bootstrap/
+Disallow: /vendor/
+Disallow: /resources/
+Disallow: /database/
+Disallow: /routes/
+Disallow: /tests/
+Disallow: /public/index.php
+Disallow: /public/
+# Allow search engines to access public pages and resources
+Allow: /public/
+Allow: /home/
+Allow: /about-us/
+Allow: /blog/
+Allow: /contact/
+
+# Block the entire admin area
+Disallow: /admin/
+
+# Block specific files and sensitive information
+Disallow: /phpinfo.php
+Disallow: /.env
